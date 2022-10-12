@@ -12,7 +12,7 @@ const NavlistMobile = ({isMenuClose, setIsMenuClose}) => {
             <li className='w-full border-t border-b border-grayish-blue/20 py-4 tracking-widest'><a  onClick={() => setIsMenuClose(!isMenuClose)} href="#contact">CONTACT</a></li>
          </ul>
          <button className='mt-12 border-2 border-white text-white text-xl font-bold w-full py-2.5 rounded-md focus:bg-grayish-blue focus:text-dark-blue transition-all ease-in-out duration-200'  onClick={() => setIsMenuClose(!isMenuClose)}>LOGIN</button>
-         <div className="social-medias fixed bottom-16 left-0 right-0 flex items-center justify-center space-x-8 w-full text-white">
+         <div className="social-medias absolute bottom-10 left-0 right-0 flex items-center justify-center space-x-8 w-full text-white">
             <FaFacebookSquare size={28} className="cursor-pointer hover:text-soft-blue" onClick={() => setIsMenuClose(!isMenuClose)}/>
             <FaTwitter size={28} className="cursor-pointer hover:text-soft-blue" onClick={() => setIsMenuClose(!isMenuClose)}/>
          </div>
