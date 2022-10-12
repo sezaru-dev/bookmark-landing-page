@@ -1,7 +1,0 @@
-1. Adjust navigation padding, margin, and position
-2. Same with Hero section
-3. Fix the Hero Illustration SVG to render its full size
-4. Add dark blue rectangle background to Hero section
-5. Check React library for rendering SVG
-
-Ganbare! kimi wo shinji iru kara!
