@@ -76,7 +76,7 @@ Users should be able to:
       console.table(data);
    }
 ```
-```jsx
+```js
    <form role='form' className="flex flex-col sm:flex-row gap-6 mt-8 max-h-fit" onSubmit={handleSubmit(onSubmit)}>
       <div className=" flex flex-col flex-1">
          <input type="email" placeholder="Enter your email address" className={`text-dark-blue outline-none flex-1 px-4 py-3 rounded-md z-10 ${errors.email?.message.length? 'border-2 border-soft-red' : 'border-white'}`} {...register("email")}/>
