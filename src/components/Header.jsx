@@ -2,10 +2,8 @@ import React, {useState} from 'react'
 import BookmarkLogo from '../images/BookmarkLogo'
 import CloseMenu from '../images/CloseMenu'
 import HamburgerMenu from '../images/HamburgerMenu'
-
 import NavlistDesktop from './navigations/NavlistDesktop'
 import NavlistMobile from './navigations/NavlistMobile'
-
 import BookmarkLogoWhite from '../images/BookmarkLogoWhite'
 
 
@@ -18,14 +16,7 @@ const Header = () => {
    }
 
 
-
    window.addEventListener('resize', () => {
-      if (screen.width >= 768) {
-         setIsMenuClose(true)
-      }
-   })
-
-   window.addEventListener('scroll', () => {
       if (screen.width >= 768) {
          setIsMenuClose(true)
       }
